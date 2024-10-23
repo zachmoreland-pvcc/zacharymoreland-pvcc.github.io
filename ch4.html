@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Name: Zach Moreland-->
+<!--The base of this program was created in ChatGPT-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table {
+            width: 95%;
+            border-collapse: collapse;
+            background-color: rgb(240, 186, 134);
+            font-family: Verdana, sans-serif;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 2px solid rgb(59, 200, 239);
+            padding: 10px;
+            text-align: left;
+            color: rgb(59, 6, 71);
+        }
+        th {
+            font-weight: bold;
+        }
+    </style>
+    <title>Chapter 4</title>
+</head>
+<body>
+
+    <h1 style="text-align: center;"> Chapter 4: Networking </h1>
+    <h1 style="text-align: center;"> Zach Moreland </h1>
+
+<table>
+    <tr>
+        <th>Item</th>
+        <th>Definition</th>
+    </tr>
+    <tr>
+        <td>
+            Network Classifications
+            <ol>
+                <li>LAN</li>
+                <li>MAN</li>
+                <li>WAN</li>
+            </ol>
+        </td>
+        <td>
+            <ol>
+                <li>Local Area Network normally consists of a collection of computers in a single building or building complex</li>
+                <li>Metropolitan Area Network is a network of intermediate size, such as one spanning a local community</li>
+                <li>Wide Area Network links machines over a greater distance, perhaps in neighboring cities or on opposite sides of the world</li>
+            </ol>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Network Models
+            <ol>
+                <li>bus network</li>
+                <li>star network</li>
+            </ol>
+        </td>
+        <td>
+            <ol>
+                <li>All machines are connected to a common communication line called a bus</li>
+                <li>One machines serves as a central focal point to which all the others are connected</li>
+            </ol>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Protocols
+            <ol>
+                <li>CSMA/CD Ethernet</li>
+                <li>CSMA/CD Wifi</li>
+            </ol>
+        </td>
+        <td>
+            <ol>
+                <li>Network protocol for carrier transmission with a wired connection - associated with bus networks</li>
+                <li>Network protocol for carrier transmission connected wirelessly</li>
+            </ol>
+        </td>>
+    </tr>
+    <tr>
+        <td>
+            Combining networks
+            <ol>
+                <li>Repeater</li>
+                <li>Bridge</li>
+                <li>Switch</li>
+                <li>Router</li>
+                <li>Gateway</li>
+            </ol>
+        </td>
+        <td>
+            <ol>
+                <li>Device that passes signals back and fothe between the two original buses</li>
+                <li>Similar to, but more complex than, a repeater. Like a repeater, it connects two buses, but it does not necessarily pass all messages across the connection. Instead, it looks at the destination address that accompanies each message and forwards a message across the connection only when that message is destined for a computer on the other side</li>
+                <li>Bridge with multiple connections, allowing it to connect several buses rather than just two</li>
+                <li>Special purpose computers used to forwarding messages - forms connection between networks to form an internet</li>
+                <li>The point at which one network is linked to an internet</li>
+            </ol>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Client/server Models
+            <ol>
+                <li>p2p: peer-to-peer</li>
+                <li>distributed system</li>
+                <li>cloud computing</li>
+            </ol>
+        </td>
+        <td>
+            <ol>
+                <li>Model that involves processes that provide service to and receive service from each other</li>
+                <li>consist of software units that execute as processes on different conputers</li>
+                <li>latest trend in distributed systems - huge pools of shared computers on the network can be allocated for use by clients as needed</li>
+            </ol>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Internet addressing
+            <ol>
+                <li>Tier 1</li>
+                <li>Tier 2</li>
+                <li>Tier 3</li>
+            </ol>
+        </td>
+        <td>
+            <ol>
+                <li>Very high-speed, high-capacity, international WANs</li>
+                <li>Tend to be more regional in scope and less potent in their capabilities</li>
+                <li>Independent internet, sometimes called an intranet, operated by a single authority that is in the business of supplying internet access to individual homes and businesses</li>
+            </ol>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            IP address
+            <ol>
+                <li><a href="https://www.icann.org/"> ICANN </a></li>
+                <li>DNS</li>
+                <li>TLD: Top-level domain</li>
+                <li><a href="https://www.worldstandards.eu/other/tlds/"> Country-code TLDs </a></li>
+            </ol>
+        </td>
+        <td>
+            <ol>
+                <li>Nonprofit corporation established to coordinate the Internet's operation</li>
+                <li>Internet wide directory system</li>
+                <li>Suffix following the period in a web-address</li>
+                <li>Two letter TLDs for each specific country</li>
+            </ol>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Internet Protocols
+            <ol>
+                <li>FTP</li>
+                <li>HTTP</li>
+                <li>SMTP</li>
+            </ol>
+        </td>
+        <td>
+            <ol>
+                <li>application for accessing another computer from a great distance</li>
+                <li>more powerful application than FTP</li>
+                <li>defines a way that two computers on the network may interact when transmiting an email message from one host to the other</li>
+            </ol>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            World Wide Web
+            <ol>
+                <li>URL</li>
+                <li>Client-side activities</li>
+                <li>Server-side activities</li>
+            </ol>
+        </td>
+        <td>
+            <ol>
+                <li>unique address given to each document</li>
+                <li>webpage involving animation performed by a client</li>
+                <li>webpage involving animation performed by a server</li>
+            </ol>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Internet four-layer software
+            <ol>
+                <li>Applicaiton layer</li>
+                <li>Transport layer</li>
+                <li>Network layer</li>
+                <li>Link layer</li>
+            </ol>
+        </td>
+        <td>
+            <ol>
+                <li>place the message typically originates</li>
+                <li>used by application layer to send and recieve messages</li>
+                <li>decides which direction a packet should be sent</li>
+                <li>recieves and transmits the packets</li>
+            </ol>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Internet is:
+            <ol>
+                <li>Packet-switching network</li>
+                <li>Fault tolerant</li>
+                <li>Redundant</li>
+            </ol>
+        </td>
+        <td>
+            <ol>
+                <li>digital network that transfers data files by breaking them up into smaller units called packets</li>
+                <li>ability of a system to maintain proper operation despite failures or faults in one or more of its components</li>
+                <li>more than one way to route data</li>
+            </ol>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Cybersecurity
+            <ol>
+                <li>malware</li>
+                <li>virus</li>
+                <li>worm</li>
+                <li>trojan horse</li>
+                <li>spyware</li>
+                <li>phishing</li>
+                <li>DDoS attack</li>
+            </ol>
+        </td>
+        <td>
+            <ol>
+                <li>malicious software that could be transferred to the computer itself or attack from a distance</li>
+                <li>software that infects a computer by inserting itself into programs that alaready reside in the machine</li>
+                <li>autonomous program that transfers itself through a network, taking up residence in computers and forwarding copies of itself to other computers</li>
+                <li>program that enters a computer system disguised as a desirable program</li>
+                <li>software that collects information about activities at the computer on which it resides and reports that information back to the instigator of the attack</li>
+                <li>technique of obtaining information explicity by simply asking for it</li>
+                <li>the work of generating the attacks is distributed over many hosts (distributed denial of service)</li>
+            </ol>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Protection
+            <ol>
+                <li>firewall</li>
+                <li>spam filter</li>
+                <li>proxy server</li>
+                <li>antivirus software</li>
+                <li>cryptography</li>
+                <li>public key encription</li>
+            </ol>
+        </td>
+        <td>
+            <ol>
+                <li>primary prevention technique that fiters traffic passing through a point in the network</li>
+                <li>firewalls designed to block unwanted email</li>
+                <li>software unit that acts as an intermediary between a client and a server with the goal of shielding the clietn from adverse actions of the server</li>
+                <li>software used to detect and remove the presence of known viruses and other infections</li>
+                <li>the study of sending and receiving messages securely in the presence of adversaries</li>
+                <li>involves techniques by which the encryption and decryption algorithms are known, and one of the keys is known, but the encoded message remains secure</li>
+            </ol>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
